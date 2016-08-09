@@ -15,6 +15,7 @@
 		A47E20871D598030000227C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47E20851D598030000227C5 /* LaunchScreen.storyboard */; };
 		A47E20921D598030000227C5 /* HorizontalWaterfallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A47E20911D598030000227C5 /* HorizontalWaterfallTests.m */; };
 		A47E209D1D598030000227C5 /* HorizontalWaterfallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A47E209C1D598030000227C5 /* HorizontalWaterfallUITests.m */; };
+		A47E20AC1D598056000227C5 /* HorizontalWaterfallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A47E20AB1D598056000227C5 /* HorizontalWaterfallFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A47E20981D598030000227C5 /* HorizontalWaterfallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalWaterfallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47E209C1D598030000227C5 /* HorizontalWaterfallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalWaterfallUITests.m; sourceTree = "<group>"; };
 		A47E209E1D598030000227C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47E20AA1D598056000227C5 /* HorizontalWaterfallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalWaterfallFlowLayout.h; sourceTree = "<group>"; };
+		A47E20AB1D598056000227C5 /* HorizontalWaterfallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalWaterfallFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A47E207B1D598030000227C5 /* AppDelegate.m */,
 				A47E207D1D598030000227C5 /* ViewController.h */,
 				A47E207E1D598030000227C5 /* ViewController.m */,
+				A47E20AA1D598056000227C5 /* HorizontalWaterfallFlowLayout.h */,
+				A47E20AB1D598056000227C5 /* HorizontalWaterfallFlowLayout.m */,
 				A47E20801D598030000227C5 /* Main.storyboard */,
 				A47E20831D598030000227C5 /* Assets.xcassets */,
 				A47E20851D598030000227C5 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47E20AC1D598056000227C5 /* HorizontalWaterfallFlowLayout.m in Sources */,
 				A47E207F1D598030000227C5 /* ViewController.m in Sources */,
 				A47E207C1D598030000227C5 /* AppDelegate.m in Sources */,
 				A47E20791D598030000227C5 /* main.m in Sources */,
